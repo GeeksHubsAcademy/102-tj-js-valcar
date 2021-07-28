@@ -9,7 +9,7 @@ function numPrimo(max) {
             }
         }
     }
-    return primes;
+    return primes.length === 0 ? -1 : primes;
   }
 
 module.exports = numPrimo;
