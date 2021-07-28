@@ -4,7 +4,7 @@ function numPrimo(max) {
         if (!arr[i]) {
             // i no ha sido marcado asi que es prime
             primes.push(i);
-            for (j = i << 1; j <= max; j += i) {
+            for (j = i < 1; j <= max; j += i) {
                 arr[j] = true;
             }
         }
